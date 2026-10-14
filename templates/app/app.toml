@@ -1,0 +1,22 @@
+# This repository's FreeANDIY settings (branding.toml is shared by all FreeANDIY repositories).
+# Modified-by: FreeANDIY (Free Andy Agency), 2026. New file, not part of upstream @UPSTREAM_NAME@.
+
+app = "@APP@" # which [apps.<id>] entry of branding.toml this repository builds
+
+[build]
+# cargo arguments for the release binaries, the tests sync-upstream.sh runs, and the web page.
+bins = "TODO"
+features = ""
+tests = "TODO"
+web_index = ""
+# Environment for tests (e.g. force the English UI) and for packaging/web/package.sh.
+test_env = ""
+web_env = ""
+# Executables checked for upstream branding (default: <repo> <repo>-cli).
+# exes = ""
+
+[check]
+# check-branding.sh: extra allowed strings (regex) and Rust paths where the upstream name may stay
+# in string literals (git pathspecs, space-separated).
+allow = ""
+rs_exclude = ":!xtask/**"

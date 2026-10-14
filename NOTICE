@@ -1,0 +1,16 @@
+FreeANDIY meta repository
+Copyright (c) 2026 Free Andy Agency
+
+The scripts and tools in this repository are licensed under MIT OR Apache-2.0, at your option
+(LICENSE-MIT, LICENSE-APACHE), except as noted below.
+
+- common/tools/make_dmg.py is adapted from PhotoCraft's packaging/macos/dmg/generate.py
+  (https://github.com/storytold/photocraft, MIT OR Apache-2.0, the PhotoCraft authors).
+- common/assets/fonts/: IBM Plex Sans, IBM Plex Mono and Roboto, SIL Open Font License 1.1
+  (the OFL-*.txt files next to them).
+- common/assets/brand/ and common/assets/icons/: the FreeANDIY and Free Andy Agency marks, the
+  angel Andy, the seal and the app icons are protected by copyright and are the property of
+  Free Andy Agency. They are NOT open source; see common/assets/brand/LICENSE-brand.txt.
+
+FreeANDIY apps are based on open-source projects by the ArtCraft team and contributors
+(https://github.com/storytold). FreeANDIY is not affiliated with the ArtCraft team.
