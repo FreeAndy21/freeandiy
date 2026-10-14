@@ -30,8 +30,9 @@ ALLOWED_STRINGS="based on the open-source project|affiliated with the ArtCraft t
 [ -n "$EXTRA_ALLOW" ] && ALLOWED_STRINGS="$ALLOWED_STRINGS|$EXTRA_ALLOW"
 # Where upstream's names may appear: licences and notices (must stay), upstream's developer
 # docs (not shipped), credits, code comments about upstream work, and our own freeandiy/ sources.
+# xtask/ is upstream's developer tooling (never shipped).
 ALLOW=(':!NOTICE' ':!LICENSE-*' ':!**/LICENSE*' ':!ATTRIBUTION.md' ':!ATTRIBUTION.toml' ':!docs/**' ':!book/**' ':!*.md'
-  ':!contributors/**' ':!freeandiy/**' ":!$TEMPLATE_OUT")
+  ':!contributors/**' ':!freeandiy/**' ":!$TEMPLATE_OUT" ':!xtask/**')
 
 echo "== source: upstream brand terms"
 if hits="$(git grep -n -I -E "$BANNED" -- . "${ALLOW[@]}" | grep -v -E '^[^:]+:[0-9]+:\s*(//|#|<!--|\*)' | grep -v -E "$ALLOWED_STRINGS" || true)" && [ -n "$hits" ]; then
