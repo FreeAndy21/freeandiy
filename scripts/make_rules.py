@@ -459,6 +459,7 @@ to = "crates/ui-egui/src/freeandiy.rs"
 from = "freeandiy/assets/icons/{{{{this.key}}}}/{src}"
 to = "assets/app-icon/{dst}"
 ''')
+    w((META / "common/rules-windows-notices.toml").read_text())
     sys.stdout.write("".join(out))
     if len(guids) > 1:
         print(f"# NOTE: add to app.toml [msi]: " + ", ".join(f"guid{i + 1}" for i in range(1, len(guids))), file=sys.stderr)
