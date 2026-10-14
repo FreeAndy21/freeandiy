@@ -37,7 +37,12 @@ else
   gh repo fork "$upstream" --fork-name "$repo" --default-branch-only --clone=false
   for _ in 1 2 3 4 5 6; do gh repo view "$owner/$repo" >/dev/null 2>&1 && break; sleep 5; done
 fi
-gh repo edit "$owner/$repo" --description "$desc" --homepage "$(get brand.website)" --add-topic freeandiy
+# A fresh fork finishes copying asynchronously and can reset the description: retry until it sticks.
+for _ in 1 2 3 4 5 6; do
+  gh repo edit "$owner/$repo" --description "$desc" --homepage "$(get brand.website)" --add-topic freeandiy
+  sleep 5
+  [ "$(gh repo view "$owner/$repo" --json description -q .description)" = "$desc" ] && break
+done
 gh api -X PUT "repos/$owner/$repo/actions/permissions" -F enabled=true -f allowed_actions=all --silent || true
 
 if [ ! -d "$dest/.git" ]; then
