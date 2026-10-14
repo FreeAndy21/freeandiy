@@ -28,7 +28,7 @@ if strings -e S -n 6 /dev/null >/dev/null 2>&1; then STRINGS="strings -e S -n 6"
 BANNED='ArtCraft|artcraft|storyteller|getartcraft|discord\.gg|Crafting Apps'
 # Allowed mentions: the About attribution (English and translated), upstream's copyright line, upstream's
 # credit for its own work, and app-specific fixtures (check.allow).
-ALLOWED_STRINGS="based on the open-source project|affiliated with the ArtCraft team|ArtCraft Team and contributors|ArtCraft Team a prispievatelia|nie je spojený s tímom ArtCraft|<!--.*-->|ArtCraft Team and the $UP (contributors|authors)|the $UP authors|$UP.s own|^$UP\$"
+ALLOWED_STRINGS="based on the open-source project|affiliated with the ArtCraft team|ArtCraft Team and contributors|ArtCraft Team a prispievatelia|nie je spojený s tímom ArtCraft|<!--.*-->|ArtCraft Team and the $UP (contributors|authors)|the $UP authors|by (the )?$UP contributors|(\(c\)|©|Copyright).*ArtCraft|$UP.s own|^$UP\$"
 [ -n "$EXTRA_ALLOW" ] && ALLOWED_STRINGS="$ALLOWED_STRINGS|$EXTRA_ALLOW"
 # Where upstream's names may appear: licences and notices (must stay), upstream's developer
 # docs (not shipped), credits, code comments about upstream work, and our own freeandiy/ sources.
