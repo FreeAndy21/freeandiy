@@ -1,28 +1,30 @@
 # FreeANDIY
 
-FreeANDIY is a family of free, open-source creative apps by [Free Andy Agency](https://freeandy.agency):
+FreeANDIY is a family of free, open-source creative and office apps by [Free Andy Agency](https://freeandy.agency):
 rebranded builds of the open-source *Craft apps by the ArtCraft team (MIT OR Apache-2.0).
 FreeANDIY is not affiliated with the ArtCraft team.
 
 This is the meta repository. It holds what every FreeANDIY app shares; the apps live in their
 own repositories.
 
-| App | Repository | Based on |
-|---|---|---|
-| FreeANDIY Photo | [freeandiy-photo](https://github.com/FreeAndy21/freeandiy-photo) | PhotoCraft |
-| FreeANDIY Vector | [freeandiy-vector](https://github.com/FreeAndy21/freeandiy-vector) | VectorCraft |
-| FreeANDIY PDF | [freeandiy-pdf](https://github.com/FreeAndy21/freeandiy-pdf) | PdfCraft |
-| FreeANDIY Light | [freeandiy-light](https://github.com/FreeAndy21/freeandiy-light) | LightCraft |
-| FreeANDIY Write | [freeandiy-write](https://github.com/FreeAndy21/freeandiy-write) | WordCraft |
-| FreeANDIY Sheets | [freeandiy-sheets](https://github.com/FreeAndy21/freeandiy-sheets) | GridCraft |
-| FreeANDIY Slides | [freeandiy-slides](https://github.com/FreeAndy21/freeandiy-slides) | DeckCraft |
-| FreeANDIY Layout | [freeandiy-layout](https://github.com/FreeAndy21/freeandiy-layout) | DesignCraft |
-| FreeANDIY Film | [freeandiy-film](https://github.com/FreeAndy21/freeandiy-film) | FilmCraft |
-| FreeANDIY Effects | [freeandiy-effects](https://github.com/FreeAndy21/freeandiy-effects) | EffectCraft |
-| FreeANDIY Sound | [freeandiy-sound](https://github.com/FreeAndy21/freeandiy-sound) | SoundCraft |
-| FreeANDIY Launcher | [freeandiy-launcher](https://github.com/FreeAndy21/freeandiy-launcher) | Craft Launcher |
+| App | Repository | Based on | Slovak UI | FreeANDIY CI |
+|---|---|---|---|---|
+| FreeANDIY Photo | [freeandiy-photo](https://github.com/FreeAndy21/freeandiy-photo) | PhotoCraft | yes | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-photo/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-photo/actions/workflows/freeandiy.yml) |
+| FreeANDIY Vector | [freeandiy-vector](https://github.com/FreeAndy21/freeandiy-vector) | VectorCraft | yes | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-vector/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-vector/actions/workflows/freeandiy.yml) |
+| FreeANDIY PDF | [freeandiy-pdf](https://github.com/FreeAndy21/freeandiy-pdf) | PdfCraft | yes | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-pdf/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-pdf/actions/workflows/freeandiy.yml) |
+| FreeANDIY Light | [freeandiy-light](https://github.com/FreeAndy21/freeandiy-light) | LightCraft | yes | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-light/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-light/actions/workflows/freeandiy.yml) |
+| FreeANDIY Write | [freeandiy-write](https://github.com/FreeAndy21/freeandiy-write) | WordCraft | yes | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-write/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-write/actions/workflows/freeandiy.yml) |
+| FreeANDIY Sheets | [freeandiy-sheets](https://github.com/FreeAndy21/freeandiy-sheets) | GridCraft | yes | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-sheets/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-sheets/actions/workflows/freeandiy.yml) |
+| FreeANDIY Slides | [freeandiy-slides](https://github.com/FreeAndy21/freeandiy-slides) | DeckCraft | — (upstream has no translations) | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-slides/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-slides/actions/workflows/freeandiy.yml) |
+| FreeANDIY Layout | [freeandiy-layout](https://github.com/FreeAndy21/freeandiy-layout) | DesignCraft | yes | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-layout/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-layout/actions/workflows/freeandiy.yml) |
+| FreeANDIY Film | [freeandiy-film](https://github.com/FreeAndy21/freeandiy-film) | FilmCraft | yes | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-film/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-film/actions/workflows/freeandiy.yml) |
+| FreeANDIY Effects | [freeandiy-effects](https://github.com/FreeAndy21/freeandiy-effects) | EffectCraft | not yet | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-effects/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-effects/actions/workflows/freeandiy.yml) |
+| FreeANDIY Sound | [freeandiy-sound](https://github.com/FreeAndy21/freeandiy-sound) | SoundCraft | — (upstream has no translations) | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-sound/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-sound/actions/workflows/freeandiy.yml) |
+| FreeANDIY Launcher | [freeandiy-launcher](https://github.com/FreeAndy21/freeandiy-launcher) | ArtCraft Launcher | not yet | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-launcher/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-launcher/actions/workflows/freeandiy.yml) |
 
-Some repositories may not exist yet; they are created in this order.
+The website, <https://freeandiy.freeandy.agency>, lives in
+[freeandiy-web](https://github.com/FreeAndy21/freeandiy-web). CADCraft and FigCraft are not
+FreeANDIY apps (yet).
 
 ## Layout
 
