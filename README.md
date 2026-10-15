@@ -20,7 +20,7 @@ own repositories.
 | FreeANDIY Film | [freeandiy-film](https://github.com/FreeAndy21/freeandiy-film) | FilmCraft | yes | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-film/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-film/actions/workflows/freeandiy.yml) |
 | FreeANDIY Effects | [freeandiy-effects](https://github.com/FreeAndy21/freeandiy-effects) | EffectCraft | not yet | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-effects/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-effects/actions/workflows/freeandiy.yml) |
 | FreeANDIY Sound | [freeandiy-sound](https://github.com/FreeAndy21/freeandiy-sound) | SoundCraft | — (upstream has no translations) | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-sound/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-sound/actions/workflows/freeandiy.yml) |
-| FreeANDIY Launcher | [freeandiy-launcher](https://github.com/FreeAndy21/freeandiy-launcher) | ArtCraft Launcher | not yet | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-launcher/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-launcher/actions/workflows/freeandiy.yml) |
+| FreeANDIY Launcher | [freeandiy-launcher](https://github.com/FreeAndy21/freeandiy-launcher) | ArtCraft Launcher | yes | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-launcher/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-launcher/actions/workflows/freeandiy.yml) |
 
 The website, <https://freeandiy.freeandy.agency>, lives in
 [freeandiy-web](https://github.com/FreeAndy21/freeandiy-web). CADCraft and FigCraft are not
