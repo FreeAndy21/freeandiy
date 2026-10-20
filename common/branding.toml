@@ -10,7 +10,8 @@
 name = "FreeANDIY"
 owner = "Free Andy Agency"
 domain = "freeandy.agency"
-website = "https://freeandiy.freeandy.agency"
+website = "https://freeandiy-web.vercel.app"
+website_host = "freeandiy-web.vercel.app" # the host of `website`, used in link labels
 github_owner = "FreeAndy21"
 id_prefix = "agency.freeandy"
 maintainer = "FreeANDIY <licencie@freeandy.agency>"

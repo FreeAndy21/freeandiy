@@ -22,7 +22,7 @@ own repositories.
 | FreeANDIY Sound | [freeandiy-sound](https://github.com/FreeAndy21/freeandiy-sound) | SoundCraft | — (upstream has no translations) | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-sound/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-sound/actions/workflows/freeandiy.yml) |
 | FreeANDIY Launcher | [freeandiy-launcher](https://github.com/FreeAndy21/freeandiy-launcher) | ArtCraft Launcher | yes | [![FreeANDIY](https://github.com/FreeAndy21/freeandiy-launcher/actions/workflows/freeandiy.yml/badge.svg)](https://github.com/FreeAndy21/freeandiy-launcher/actions/workflows/freeandiy.yml) |
 
-The website, <https://freeandiy.freeandy.agency>, lives in
+The website, <https://freeandiy-web.vercel.app>, lives in
 [freeandiy-web](https://github.com/FreeAndy21/freeandiy-web). CADCraft and FigCraft are not
 FreeANDIY apps (yet).
 

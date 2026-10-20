@@ -116,7 +116,7 @@ min = 0
 name = "link labels: this app's page (code and catalogs)"
 include = ["**/*.rs", "{cat}"]
 find = "getartcraft.com/apps/{slug}"
-replace = "freeandiy.freeandy.agency/{{{{this.key}}}}"
+replace = "{{{{brand.website_host}}}}/{{{{this.key}}}}"
 skip_comments = ["//"]
 min = 0
 
@@ -141,7 +141,7 @@ name = "labels: the website's host (code and catalogs)"
 include = ["**/*.rs", "{cat}"]
 exclude = ["xtask/**"]
 find = "getartcraft.com"
-replace = "freeandiy.freeandy.agency"
+replace = "{{{{brand.website_host}}}}"
 skip_comments = ["//"]
 min = 0
 
